@@ -1,15 +1,11 @@
-# Title: StevenBlack/hosts with the fakenews, gambling, porn and social extensions
+# Title: Jais/hosts with the custom rule
 #
 # This hosts file is a merged collection of hosts from reputable sources,
 # with a dash of crowd sourcing via GitHub
 #
-# Date: 21 June 2026 21:35:22 (UTC)
-# Extensions added to this file: fakenews, gambling, porn, social
-# Number of unique domains: 170,252
+# Date: 23 June 2026 21:35:22 (UTC)
+# Number of unique domains: 
 #
-# Fetch the latest version of this file: https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts
-# Project home page: https://github.com/StevenBlack/hosts
-# Project releases: https://github.com/StevenBlack/hosts/releases
 #
 # ===============================================================
 
@@ -28,13 +24,14 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-# Custom host records are listed here.
-
-
-# End of custom host records.
-# Start StevenBlack
 
 #=====================================
-# Title: Hosts contributed by Steven Black
-# http://stevenblack.com
 
+
+@@||googlevideo.com^$client='192.168.110.128'
+@@||googlevideo.com^$client='192.168.110.114'
+@@||z-library.sk
+@@||mask.icloud.com
+@@||mask-h2.icloud.com
+
+# 0.0.0.0 ad-assets.futurecdn.net
