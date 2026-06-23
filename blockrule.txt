@@ -34,6 +34,7 @@ ff02::3 ip6-allhosts
 
 googlevideo.com^$client='192.168.110.128'
 googlevideo.com^$client='192.168.110.114'
+googlevideo.com^$client='192.168.110.43'
 z-library.sk
 mask.icloud.com
 mask-h2.icloud.com
